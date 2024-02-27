@@ -45,5 +45,3 @@ Before building and launching the Docker containers, create a `.env` file in the
 POSTGRES_DB=your_database
 POSTGRES_USER=your_user
 POSTGRES_PASSWORD=your_password
-
-
