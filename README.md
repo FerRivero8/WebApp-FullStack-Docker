@@ -12,6 +12,7 @@ To get the application up and running on your system, follow these simple steps:
 
 1. **Build the Docker Containers**  
    Navigate to the directory containing the `docker-compose.yml` file and run the following command to build the Docker containers:
+   
    ```bash
    docker compose build
 
@@ -24,8 +25,5 @@ Once the build process is complete, start up the containers using:
 
 This command starts all the services defined in your `docker-compose.yml`, including the web application, database, and any other services your application depends on.
 
-3. **Access the Web Application**  
-After the containers are up and running, open a web browser and navigate to `http://localhost:80`. You should now be able to see the web application's login page. Enter the credentials to access the welcome screen, verifying that the application has been set up correctly and is connected to the PostgreSQL database.
 
-Following these steps will ensure your application is running and accessible via your local machine.
 
