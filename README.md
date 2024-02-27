@@ -22,9 +22,21 @@ This command builds all the necessary Docker images as defined in your `docker-c
 Once the build process is complete, start up the containers using:
 
      ```bash
-      docker compose up
+   docker compose up
 
 This command starts all the services defined in your `docker-compose.yml`, including the web application, database, and any other services your application depends on.
 
+This command starts all the services defined in your `docker-compose.yml`, including the web application, database, and any other services your application depends on.
+
+3. **Access the Web Application**  
+After the containers are up and running, open a web browser and navigate to `http://localhost:80`. You should now be able to see the web application's login page. Enter the credentials to access the welcome screen, verifying that the application has been set up correctly and is connected to the PostgreSQL database.
+
+Following these steps will ensure your application is running and accessible via your local machine.
+
+4. **Stopping the Application**  
+   To stop and remove all the running containers associated with your application, open a terminal, navigate to the directory containing your `docker-compose.yml` file, and execute the following command:
+   
+      ```bash
+   docker-compose down
 
 
