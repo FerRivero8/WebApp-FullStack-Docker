@@ -20,8 +20,9 @@ This command builds all the necessary Docker images as defined in your `docker-c
 
 2. **Launch the Containers**  
 Once the build process is complete, start up the containers using:
-  ```bash
-   docker compose up
+
+     ```bash
+      docker compose up
 
 This command starts all the services defined in your `docker-compose.yml`, including the web application, database, and any other services your application depends on.
 
